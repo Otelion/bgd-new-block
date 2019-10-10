@@ -1,0 +1,138 @@
+
+.list-link {
+    background: #FADACD;
+    border-radius: 8px;
+    max-width: 283px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.list-link__items {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 15px 15px 15px 12px;
+    border-bottom: 1px solid #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.3s;
+}
+
+.list-link__items:hover .list-link__items-icon {
+    background: #EF855B;
+    transition: 0.3s;
+}
+
+.list-link__items-icon {
+    background: #FFFFFF;
+    min-width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+}
+
+.list-link__items-icon i {
+    display: block;
+}
+
+.list-link__items-text {
+    font-size: 14px;
+    line-height: 16px;
+    color: #555555;
+    margin: 0;
+}
+
+.list-link__items-icon-house {
+    background: url("img/house.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 27px;
+    height: 27px;
+}
+
+.list-link__items-icon-man-cane {
+    background: url("img/man-cane.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 32px;
+    height: 32px;
+}
+
+.list-link__items-icon-exchange {
+    background: url("img/exchange.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 37px;
+    height: 37px;
+}
+
+.list-link__items-icon-home-loan {
+    background: url("img/home-loan.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 32px;
+    height: 32px;
+}
+
+.list-link__items-icon-balance {
+    background: url("img/balance.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 31px;
+    height: 32.5px;
+}
+
+.list-link__items-icon-record {
+    background: url("img/record.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 3px;
+}
+
+
+/*____________*/
+
+.list-link__items:hover .list-link__items-icon-house {
+    background: url("img/house-active.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 27px;
+    height: 27px;
+}
+
+.list-link__items:hover .list-link__items-icon-man-cane {
+    background: url("img/man-cane-active.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 32px;
+    height: 32px;
+}
+
+.list-link__items:hover .list-link__items-icon-exchange {
+    background: url("img/exchange-active.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 37px;
+    height: 37px;
+}
+
+.list-link__items:hover .list-link__items-icon-home-loan {
+    background: url("img/home-loan-active.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 32px;
+    height: 32px;
+}
+
+.list-link__items:hover .list-link__items-icon-balance {
+    background: url("img/balance-active.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 31px;
+    height: 32.5px;
+}
+
+.list-link__items:hover .list-link__items-icon-record {
+    background: url("img/record-active.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 3px;
+}
